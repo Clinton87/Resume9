@@ -1,0 +1,130 @@
+*   {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html    {
+    background-color: black;
+    padding: 20px 0;
+}
+
+h1, h2, h3, h4, p  {
+    text-align: center;
+    color: #660816;
+    font-size: 250%;
+}
+
+}
+
+h2, h3  {
+    text-decoration: underline;
+}
+
+p   {
+    color:rgba(231, 214, 214, 0.849);
+    font-size: 20px;
+    text-decoration-thickness: 10px;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+#main   {
+    opacity: .8;
+}
+
+picture {
+    text-align: center;
+    display: flex;
+    border-radius: 50%;
+    margin: auto;
+    border: rgba(48, 40, 40, 0.808);
+    padding: 20px 0 20px 0
+}
+
+img {
+    text-align: center;
+    display: flex;
+    border-radius: 50%;
+    margin: auto;
+    border: rgba(48, 40, 40, 0.808);
+    padding: 20px 0 20px 0;
+}
+
+.colleges  {
+    color: black;
+}
+
+.colleges:hover    {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+a:hover {
+    /*color: #205f6d;*/
+    color: #660816;
+    transition: .05s;
+    transition-timing-function: linear;
+    text-decoration: none;
+}
+
+a:hover img     {
+    transition: .5s;
+    transform: scale(110%);
+    border-radius: 100%;
+    animation-name: imageAnimate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes imageAnimate {
+    0% {transform: rotate(0deg);
+        transform: rotate(360deg);
+        border-radius: 100%;}
+    50% {transform: rotate(-30deg);}
+    100% {transform: rotate(30deg);}
+}
+
+body    {
+    background-image: url("/images/blue_back.jpg");
+    background-color: #660816;
+    padding: 10px;
+
+}
+
+.navbar     {   
+    background-color: black;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footbar  {
+    padding: 30px;
+    background-color: black;
+    text-align: center;
+}
+
+header  {
+    color: rgba(231, 214, 214, 0.849);
+    text-align: center;
+}
+
+.icons  {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    background-image: url("/images/blue_back.jpg");
+    background-color: #123dcc;
+    background-size: cover;
+    position: relative;
+}
+
